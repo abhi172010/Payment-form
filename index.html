@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+
+                <legend>PAYMENT FORM</legend>
+                <h2>Contact Information</h2>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="abhishek" required>
+                <br><br>
+                <label for="email">Email</label>
+                <input type="email" id="mail-id" placeholder="abc@gmail.com"
+                    required>
+                <br><br>
+
+                <label>Gender:</label>
+                <input type="radio" id="male" name="Gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="Female" name="Gender" value="Female" required>
+                <label for="Female">Female</label>
+                <br><br>
+
+                <label for="address">Address</label>
+                <textarea name="address" id="address" cols="20" rows="5"></textarea>
+                <br><br>
+
+                <label for="Pincode">Pincode</label>
+                <input type="number" id="Pincode" required>
+                <hr>
+
+                <h2>Payment Information</h2>
+                <br><br>
+
+                <label for="Card Type">Card Type</label>
+                <select name="Card Type" id="Card Type">
+                    <option value="VISA">VISA</option>
+                    <option value="RUPEY">RUPEY</option>
+                    <option value="MASTER CARD">MASTER CARD</option>
+                </select>
+                <br><br>
+                <label for="Card Number">Card Number</label>
+                <input type="number" id="Card Number">
+                <br><br>
+
+                <label for="pwd">CVV</label>
+                <input type="password" id="pwd" name="pwd">
+                <br><br>
+                <label for="pwd">OTP</label>
+                <input type="password" id="pwd" name="pwd"><br><br>
+
+                <label for="Expiry Date">Expiry Date</label>
+                <input type="date" id="Expiry Date">
+                <br><br>
+
+                <button>Submit</button>
+                <button>Reset</button>
+                <button>PayNow</button>
+
+
+            </fieldset>
+        </form>
+    </body>
+</html>
